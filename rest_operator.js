@@ -11,3 +11,7 @@ const arr = [
 const a = arr[0];
 const b = arr[1];
 const c = [arr[2], arr[3], arr[4]];
+
+
+// com es6
+const [a, b, ...c] = arr;
