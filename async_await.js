@@ -13,5 +13,5 @@ const reqUserRepo = async () => {
   const { id } = await api.get('/users/diego3g');
   const repos = await api.get(`/repos/${id}`);
 
-  repos.map((item, index) => console.log('Posição: ' + index + ': ' + item));
+  repos.map((item, index) => console.log(`Posição: ${index}: ${item}`));
 };
